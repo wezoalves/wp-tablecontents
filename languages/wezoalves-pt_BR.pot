@@ -1,0 +1,43 @@
+# Copyright (C) 2024 Weslley Alves
+# This file is distributed under the same license as the Index Generator plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Index Generator 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wezo-contentindex\n"
+"Last-Translator: Weslley Alves <wezo@wezo.com.br>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-06-30T17:15:10+00:00\n"
+"PO-Revision-Date: 2024-06-30 14:17+-03\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: wezoalves\n"
+
+#. Plugin Name of the plugin
+msgid "Index Generator"
+msgstr "Geador de Indice"
+
+#. Plugin URI of the plugin
+msgid "https://wezo.com.br/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Automatically create a navigable table of contents for your articles based on headers (h2, h3, h4, h5, and h6). This plugin enhances the reading experience and navigation of your posts by adding a table of contents before the first header found."
+msgstr "Crie automaticamente uma tabela de conteúdos navegável para seus artigos com base nos cabeçalhos (h2, h3, h4, h5 e h6). Este plugin melhora a experiência de leitura e a navegação dos seus posts ao adicionar uma tabela de conteúdos antes do primeiro cabeçalho encontrado."
+
+#. Author of the plugin
+msgid "Weslley Alves"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wezo.com.br"
+msgstr ""
+
+#: contentindex.php:23
+msgid "Index Selection"
+msgstr "Seleção de Indice"
+
+#: contentindex.php:77
+msgid "What you will find in this article"
+msgstr "O que você vai encontrar nesse artigo"
