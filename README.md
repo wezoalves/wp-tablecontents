@@ -89,7 +89,7 @@ You can customize the appearance of the generated table of contents by adding cu
 - `<ol class='table-content'>`: This is the ordered list that contains the table of contents items.
 - `<li class='index-header-h2'>`, `<li class='index-header-h3'>`, `<li class='index-header-h4'>`, `<li class='index-header-h5'>`, `<li class='index-header-h6'>`: These are the list items for each header level included in the table of contents.
 - `<a class='index-header-link'>`: This is the link nested within each list item.
-- `<a class='index-anchor'>`: This is the invisible anchor link used for navigation within the content.
+- `<span class='index-anchor'>`: This is the simple element used for navigation within the content.
 
 Add the above CSS to your theme's stylesheet to customize the appearance of the table of contents.
 
