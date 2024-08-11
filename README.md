@@ -1,6 +1,6 @@
 # Plugin: Table of Contents
 
-![Cover](cover.png)
+![Cover](image-cover.png)
 
 The Table of Contents plugin automatically generates a navigable table of contents for your articles based on headers (h2, h3, h4, h5, and h6). This enhances the reading experience and navigation of your posts by adding a table of contents before the first header found in the content.
 
@@ -124,10 +124,10 @@ Weslley Alves
 
 ## Screenshots
 ### Meta Box for Header Selection
-![Meta Box](table_of_contents_admin.png)
+![Meta Box](image-table_of_contents_admin.png)
 
 ### Example of Generated Table of Contents
-![Table of Contents](table_of_contents_site.png)
+![Table of Contents](image-table_of_contents_site.png)
 
 ###### Thanks
 - [@roryokane](https://github.com/roryokane) and Adrian Garner - Fixed page header overlaps in-page anchors https://stackoverflow.com/a/28824157/1744276
