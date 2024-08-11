@@ -127,5 +127,5 @@ Weslley Alves
 ### Example of Generated Table of Contents
 ![Table of Contents](table_of_contents_site.png)
 
-###### Tanks
-- @roryokane and Adrian Garner - Fixed page header overlaps in-page anchors https://stackoverflow.com/a/28824157/1744276
+###### Thanks
+- [@roryokane](https://github.com/roryokane) and Adrian Garner - Fixed page header overlaps in-page anchors https://stackoverflow.com/a/28824157/1744276
