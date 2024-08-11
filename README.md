@@ -73,9 +73,14 @@ You can customize the appearance of the generated table of contents by adding cu
     text-decoration: underline;
 }
 
-/* Invisible anchor link used for navigation */
 .index-anchor {
-    display: none;
+
+}
+.index-anchor::before {
+  content: "";
+  display: block;
+  height: 100px; /* fixed header height*/
+  margin: -120px 0 0; /* negative fixed header height */
 }
 ```
 
@@ -121,3 +126,6 @@ Weslley Alves
 
 ### Example of Generated Table of Contents
 ![Table of Contents](table_of_contents_site.png)
+
+###### Tanks
+- @roryokane and Adrian Garner - Fixed page header overlaps in-page anchors https://stackoverflow.com/a/28824157/1744276

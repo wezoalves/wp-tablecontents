@@ -10,7 +10,7 @@ Text Domain: wezoalves
 */
 
 // Check if WordPress functions are available
-if (! function_exists('add_action') || ! function_exists('get_post_meta')) {
+if (! defined('ABSPATH') && ! function_exists('add_action')) {
   exit('This plugin requires WordPress to be installed and running.');
 }
 /**
@@ -108,7 +108,7 @@ class WezoAlvesTableContents
   public function content_index($content)
   {
     if (get_post_type() == 'post' && is_singular()) {
-      
+
       global $post;
 
       $selected_headers = get_post_meta($post->ID, 'header_selector', true);
@@ -153,7 +153,7 @@ class WezoAlvesTableContents
 
           $new_header = <<<HTML
             <!-- Table of Contents Anchor Header -->
-            <a class='index-anchor' id='{$slug}'></a>
+            <span class='index-anchor' id='{$slug}'></span>
             <{$level}>{$text}</{$level}>
             <!-- End Table of Contents Anchor Header -->
           HTML;
